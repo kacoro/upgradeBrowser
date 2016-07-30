@@ -1,0 +1,41 @@
+.ieSupport-wraper {
+        display: block;;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: url(img/mask_bg.png) repeat;
+        z-index: 99999999;
+        overflow-y: auto;
+        text-align: center;
+        color: #fff;
+        font-family: "微软雅黑"
+}
+.ieSupport-wraper div.tip360 {
+        width: 938px;
+        height: 312px;
+        margin: 140px auto 0 auto;
+    }
+
+.ieSupport-wraper a:link,.ieSupport-wraper a:visited,.ieSupport-wraper a:hover,.ieSupport-wraper >a:active{color: #fff;}
+.ieSupport-wraper img{border: 0}
+.ieSupport-wraper p {
+      width: 930px;
+      color: #fff;
+      text-align: center;
+      margin: 10px auto 0 auto;
+      line-height: 40px;
+}
+.ieSupport-wraper a{ display:inline-block;}
+.ieSupport-wraper a{ _zoom:1;*display:inline;}
+.ieCheck-jisu, .ieCheck-123, .ieCheck-360, .ieCheck-ch, .ieCheck-ff,
+.ieCheck-sf{ display: inline-block; background: url('img/upgradeBrowser.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+.ieCheck-jisu, .ieCheck-123, .ieCheck-360, .ieCheck-ch, .ieCheck-ff,
+
+.ieCheck-jisu { background-position: -10px -0px; width: 168px; height: 88px; }
+.ieCheck-123 { background-position: -10px -98px; width: 64px; height: 64px; }
+.ieCheck-360 { background-position: -84px -98px; width: 50px; height: 50px;display: block; }
+.ieCheck-ch { background-position: -84px -158px; width: 50px; height: 50px; display: block;}
+.ieCheck-ff { background-position: -10px -172px; width: 50px; height: 50px; display: block;}
+.ieCheck-sf { background-position: -70px -218px; width: 50px; height: 50px; display: block;}
